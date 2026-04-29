@@ -6,7 +6,7 @@ A Python CLI tool to check the availability, status codes, and response times of
 
 ```bash
 python url_status_checker.py --file urls.txt
-
+```
 🚀 Features
 
 Check single or multiple URLs
