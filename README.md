@@ -1,38 +1,24 @@
 # 🌐 URL Status Checker
 
-A Python CLI tool to check the availability, status codes, and response times of websites.
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A high-performance Python CLI tool designed to monitor website health. Quickly audit **availability**, **HTTP status codes**, and **latency** for single targets or bulk lists.
+
+---
+
+## 🚀 Features
+
+*   **🔍 Versatile Scanning:** Check a single URL or batch-process hundreds from a file.
+*   **⏱️ Performance Metrics:** Real-time measurement of response times.
+*   **❌ Error Detection:** Instantly identify broken links or unreachable servers.
+*   **💾 Export Ready:** Save your audit logs to a file for later analysis.
+*   **🎨 Terminal UI:** Clean, color-coded output for better readability.
+
+---
 
 ## 📸 Demo
 
 ```bash
+# Quick start with a file list
 python url_status_checker.py --file urls.txt
-```
-🚀 Features
-
-Check single or multiple URLs
-Fetch HTTP status codes
-Measure response time
-Identify broken or unreachable links
-Save results to file
-Colored terminal output
-
-📦 Installation
-
-git clone https://github.com/nikraj1/url-status-checker.git
-cd url-status-checker
-pip install -r requirements.txt
-
-🧪 Usage
-
-python url_status_checker.py --url https://google.com
-python url_status_checker.py --file urls.txt
-
-💡 Example
-
-python url_status_checker.py --file urls.txt --output results.txt
-
-🛠️ Tech Stack
-Python
-requests
-argparse
-
